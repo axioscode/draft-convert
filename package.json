@@ -1,6 +1,6 @@
 {
   "name": "@axioscode/draft-convert",
-  "version": "2.2.0",
+  "version": "2.1.8",
   "description": "Extensibly serialize & deserialize Draft.js ContentState",
   "main": "lib/index.js",
   "module": "esm/index.js",
@@ -36,7 +36,7 @@
   "author": "bbriggs@hubspot.com",
   "license": "Apache-2.0",
   "peerDependencies": {
-    "draft-js": ">=0.7.0",
+    "@axioscode/draft-js": "^0.11.6",
     "react": "^15.0.2|| ^16.0.0-rc || ^16.0.0",
     "react-dom": "^15.0.2|| ^16.0.0-rc || ^16.0.0"
   },
@@ -46,7 +46,6 @@
     "invariant": "^2.2.1"
   },
   "devDependencies": {
-    "@axioscode/draft-js": "^0.11.6",
     "@babel/cli": "^7.5.0",
     "@babel/core": "^7.5.4",
     "@babel/plugin-transform-runtime": "^7.5.5",
@@ -56,6 +55,7 @@
     "babel-jest": "^24.8.0",
     "babel-loader": "^8.0.6",
     "cross-env": "^3.1.4",
+    "@axioscode/draft-js": "^0.11.6",
     "eslint": "6.0.1",
     "eslint-config-hubspot": "^7.0.0",
     "eslint-config-prettier": "^2.2.0",
